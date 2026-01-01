@@ -1,6 +1,6 @@
-# OpenFlow - Open Source Community Website
+# vellabs - Open Source Community Website
 
-A beautiful, modern website for an open-source software community dedicated to creating, maintaining, and sharing high-quality libraries and software.
+A beautiful, modern website for the vellabs open-source software community dedicated to creating, maintaining, and sharing high-quality libraries and software.
 
 ## Features
 
@@ -15,10 +15,8 @@ A beautiful, modern website for an open-source software community dedicated to c
 - **Hero Section** - Eye-catching introduction with code block
 - **About** - Mission, community values, and principles
 - **Features** - Key benefits and advantages
-- **Projects** - Featured open-source projects with stats
 - **Contribute** - How to get involved and contribute
 - **Community** - Multiple channels to join and connect
-- **Contact** - Contact form and direct contact information
 - **Footer** - Comprehensive navigation and social links
 
 📱 **Responsive**
@@ -79,26 +77,10 @@ A beautiful, modern website for an open-source software community dedicated to c
 ## Customization Guide
 
 ### Change Community Name
-Replace "OpenFlow" with your community name:
-- In `index.html`: Update the `<title>`, `.logo-text`, and various headings
+Replace the community name and branding:
+- In `index.html`: The name is already set to "vellabs"
+- Update the `<title>`, logo icon, and various headings if needed
 - Add your own logo or icon
-
-### Update Project Information
-Modify the projects grid section in `index.html`:
-```html
-<div class="project-card">
-    <div class="project-header">
-        <h3>Your Project Name</h3>
-        <span class="tag">Your Language</span>
-    </div>
-    <p>Your project description...</p>
-    <div class="project-stats">
-        <span>⭐ Your Stars</span>
-        <span>📦 Your Downloads</span>
-    </div>
-    <a href="your-github-url" class="project-link">View on GitHub →</a>
-</div>
-```
 
 ### Update Social Links
 Find all social links and update them:
@@ -212,14 +194,15 @@ To improve this website template:
 ## Future Enhancements
 
 Potential additions:
+- Featured projects section (when projects are ready)
 - Blog section for announcements
 - Team members/contributors page
 - Events/webinar calendar
 - Sponsorship/donation page
 - Testimonials from users
 - Interactive tutorials
-- Newsletter signup integration
+- Contact form with backend integration
 
 ---
 
-**Built with ❤️ for the open-source community**
+**Built with ❤️ for the vellabs open-source community**
